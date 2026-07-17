@@ -1,0 +1,5 @@
+comparison,admission_rate,rejection_rate,avg_waiting_time,avg_bed_utilization,peak_queue_length,pct_time_queue_full,pct_time_under_pressure,avg_length_of_stay,rejection_rate_low,rejection_rate_medium,rejection_rate_high
+Combined vs. Base,combined better by 9.2pp,combined better by 9.2pp,combined better by 2.38h,base better by 7.3pp,-,combined better by 6.5pp,combined better by 30.0pp,combined better by 2.20h,-,combined better by 13.6pp,combined better by 26.2pp
+Combined vs. Capacity-alone,-,-,-,-,-,-,-,-,12beds better by 10.8pp,-,-
+Combined vs. Queue-Policy-alone,combined better by 11.9pp,combined better by 11.9pp,-,priority better by 6.2pp,-,-,combined better by 23.2pp,combined better by 1.23h,combined better by 19.8pp,combined better by 8.1pp,-
+Queue Policy vs. Base,-,-,priority better by 1.49h,-,-,-,priority better by 6.8pp,-,base better by 20.9pp,priority better by 5.6pp,priority better by 21.4pp

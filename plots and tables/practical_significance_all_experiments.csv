@@ -1,0 +1,41 @@
+comparison,metric,scenario_a,scenario_b,mean_a,mean_b,gap_b_minus_a,ci_overlap,practically_meaningful
+Queue Policy vs. Base,rejection_rate,Base,Priority,0.14775184012631115,0.17534282760955985,0.027590987483248702,False,False
+Queue Policy vs. Base,avg_waiting_time,Base,Priority,5.479935262476659,2.719276669628461,-2.7606585928481984,False,True
+Queue Policy vs. Base,avg_length_of_stay,Base,Priority,29.310971845273727,27.317691221502535,-1.9932806237711915,False,True
+Queue Policy vs. Base,rejection_rate_low,Base,Priority,0.10051866107680234,0.3672323114246284,0.26671365034782607,False,True
+Queue Policy vs. Base,rejection_rate_high,Base,Priority,0.2643180893180893,0.03493746993746994,-0.22938061938061938,False,True
+Combined vs. Base,rejection_rate,Base,Combined,0.14775184012631115,0.0264760186731229,-0.12127582145318824,False,True
+Combined vs. Base,avg_waiting_time,Base,Combined,5.479935262476659,1.214859689484037,-4.265075572992622,False,True
+Combined vs. Base,avg_length_of_stay,Base,Combined,29.310971845273727,25.3018565442245,-4.009115301049228,False,True
+Combined vs. Base,rejection_rate_low,Base,Combined,0.10051866107680234,0.06054870843051061,-0.039969952646291725,False,False
+Combined vs. Base,rejection_rate_high,Base,Combined,0.2643180893180893,0.0,-0.2643180893180893,False,True
+Combined vs. Capacity-alone,rejection_rate,Capacity-alone,Combined,0.01746458098015126,0.0264760186731229,0.009011437692971642,False,False
+Combined vs. Capacity-alone,avg_waiting_time,Capacity-alone,Combined,2.5258375679961564,1.214859689484037,-1.3109778785121193,False,True
+Combined vs. Capacity-alone,avg_length_of_stay,Capacity-alone,Combined,26.58577491645743,25.3018565442245,-1.2839183722329324,False,True
+Combined vs. Capacity-alone,rejection_rate_low,Capacity-alone,Combined,0.012005277468200801,0.06054870843051061,0.048543430962309814,False,False
+Combined vs. Capacity-alone,rejection_rate_high,Capacity-alone,Combined,0.06647065897065897,0.0,-0.06647065897065897,False,True
+Combined vs. Queue-Policy-alone,rejection_rate,Priority-alone,Combined,0.17534282760955985,0.0264760186731229,-0.14886680893643695,False,True
+Combined vs. Queue-Policy-alone,avg_waiting_time,Priority-alone,Combined,2.719276669628461,1.214859689484037,-1.5044169801444238,False,True
+Combined vs. Queue-Policy-alone,avg_length_of_stay,Priority-alone,Combined,27.317691221502535,25.3018565442245,-2.0158346772780362,False,True
+Combined vs. Queue-Policy-alone,rejection_rate_low,Priority-alone,Combined,0.3672323114246284,0.06054870843051061,-0.3066836029941178,False,True
+Combined vs. Queue-Policy-alone,rejection_rate_high,Priority-alone,Combined,0.03493746993746994,0.0,-0.03493746993746994,False,False
+Stress 10/FIFO vs. Base (arrival variability),rejection_rate,Uniform,Exponential,0.14775184012631115,0.1910414261139458,0.04328958598763466,False,False
+Stress 10/FIFO vs. Base (arrival variability),avg_waiting_time,Uniform,Exponential,5.479935262476659,3.7741734700330554,-1.705761792443604,False,True
+Stress 10/FIFO vs. Base (arrival variability),avg_length_of_stay,Uniform,Exponential,29.310971845273727,27.718887375820444,-1.5920844694532832,False,True
+Stress 10/FIFO vs. Base (arrival variability),rejection_rate_low,Uniform,Exponential,0.10051866107680234,0.15901604154402013,0.058497380467217794,False,True
+Stress 10/FIFO vs. Base (arrival variability),rejection_rate_high,Uniform,Exponential,0.2643180893180893,0.30900437525437524,0.04468628593628593,True,False
+Stress 10/Priority vs. Queue Policy (arrival variability),rejection_rate,Uniform,Exponential,0.17534282760955985,0.21816901459886834,0.042826186989308485,False,False
+Stress 10/Priority vs. Queue Policy (arrival variability),avg_waiting_time,Uniform,Exponential,2.719276669628461,2.285695391173802,-0.4335812784546591,False,False
+Stress 10/Priority vs. Queue Policy (arrival variability),avg_length_of_stay,Uniform,Exponential,27.317691221502535,26.75076128107462,-0.5669299404279151,False,False
+Stress 10/Priority vs. Queue Policy (arrival variability),rejection_rate_low,Uniform,Exponential,0.3672323114246284,0.36800619950996016,0.000773888085331742,True,False
+Stress 10/Priority vs. Queue Policy (arrival variability),rejection_rate_high,Uniform,Exponential,0.03493746993746994,0.09544566544566546,0.06050819550819552,True,False
+Stress 12/FIFO vs. Capacity-alone (arrival variability),rejection_rate,Uniform,Exponential,0.01746458098015126,0.07678927770449272,0.05932469672434146,False,True
+Stress 12/FIFO vs. Capacity-alone (arrival variability),avg_waiting_time,Uniform,Exponential,2.5258375679961564,2.1690021166921127,-0.3568354513040437,True,False
+Stress 12/FIFO vs. Capacity-alone (arrival variability),avg_length_of_stay,Uniform,Exponential,26.58577491645743,26.103848426310876,-0.48192649014655586,True,False
+Stress 12/FIFO vs. Capacity-alone (arrival variability),rejection_rate_low,Uniform,Exponential,0.012005277468200801,0.0614168159700409,0.0494115385018401,False,False
+Stress 12/FIFO vs. Capacity-alone (arrival variability),rejection_rate_high,Uniform,Exponential,0.06647065897065897,0.12291366041366042,0.05644300144300145,True,False
+Stress 12/Priority vs. Combined (arrival variability),rejection_rate,Uniform,Exponential,0.0264760186731229,0.09927635267376139,0.07280033400063848,False,True
+Stress 12/Priority vs. Combined (arrival variability),avg_waiting_time,Uniform,Exponential,1.214859689484037,1.3984569651709375,0.18359727568690043,False,False
+Stress 12/Priority vs. Combined (arrival variability),avg_length_of_stay,Uniform,Exponential,25.3018565442245,25.516819332556405,0.2149627883319063,True,False
+Stress 12/Priority vs. Combined (arrival variability),rejection_rate_low,Uniform,Exponential,0.06054870843051061,0.1699044778602853,0.10935576942977471,False,True
+Stress 12/Priority vs. Combined (arrival variability),rejection_rate_high,Uniform,Exponential,0.0,0.04689393939393939,0.04689393939393939,False,False

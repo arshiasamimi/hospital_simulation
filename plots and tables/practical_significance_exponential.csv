@@ -1,0 +1,45 @@
+comparison,metric,scenario_a,scenario_b,mean_a,mean_b,gap_b_minus_a,practically_meaningful
+Queue Policy vs. Base,admission_rate,base,priority,0.8089585738860542,0.7818309854011317,-0.02712758848492247,False
+Queue Policy vs. Base,rejection_rate,base,priority,0.1910414261139458,0.21816901459886834,0.027127588484922527,False
+Queue Policy vs. Base,avg_waiting_time,base,priority,3.7741734700330554,2.285695391173802,-1.4884780788592535,True
+Queue Policy vs. Base,avg_bed_utilization,base,priority,0.9507258437355525,0.939704114655571,-0.011021729079981446,False
+Queue Policy vs. Base,peak_queue_length,base,priority,5.0,5.0,0.0,False
+Queue Policy vs. Base,pct_time_queue_full,base,priority,0.10032362459546924,0.07420249653259361,-0.02612112806287563,False
+Queue Policy vs. Base,pct_time_under_pressure,base,priority,0.694868238557559,0.6271844660194174,-0.06768377253814162,True
+Queue Policy vs. Base,avg_length_of_stay,base,priority,27.718887375820444,26.75076128107462,-0.9681260947458235,False
+Queue Policy vs. Base,rejection_rate_low,base,priority,0.15901604154402013,0.36800619950996016,0.20899015796594003,True
+Queue Policy vs. Base,rejection_rate_medium,base,priority,0.20254009234424603,0.14693737228386666,-0.05560272006037936,True
+Queue Policy vs. Base,rejection_rate_high,base,priority,0.30900437525437524,0.09544566544566546,-0.21355870980870978,True
+Combined vs. Base,admission_rate,base,combined,0.8089585738860542,0.9007236473262387,0.09176507344018447,True
+Combined vs. Base,rejection_rate,base,combined,0.1910414261139458,0.09927635267376139,-0.09176507344018442,True
+Combined vs. Base,avg_waiting_time,base,combined,3.7741734700330554,1.3984569651709375,-2.375716504862118,True
+Combined vs. Base,avg_bed_utilization,base,combined,0.9507258437355525,0.8779858221605795,-0.07274002157497295,True
+Combined vs. Base,peak_queue_length,base,combined,5.0,5.0,0.0,False
+Combined vs. Base,pct_time_queue_full,base,combined,0.10032362459546924,0.03522884882108183,-0.06509477577438741,True
+Combined vs. Base,pct_time_under_pressure,base,combined,0.694868238557559,0.39500693481276006,-0.2998613037447989,True
+Combined vs. Base,avg_length_of_stay,base,combined,27.718887375820444,25.516819332556405,-2.2020680432640383,True
+Combined vs. Base,rejection_rate_low,base,combined,0.15901604154402013,0.1699044778602853,0.010888436316265182,False
+Combined vs. Base,rejection_rate_medium,base,combined,0.20254009234424603,0.06609671885174205,-0.13644337349250396,True
+Combined vs. Base,rejection_rate_high,base,combined,0.30900437525437524,0.04689393939393939,-0.26211043586043586,True
+Combined vs. Capacity-alone,admission_rate,12beds,combined,0.9232107222955073,0.9007236473262387,-0.022487074969268606,False
+Combined vs. Capacity-alone,rejection_rate,12beds,combined,0.07678927770449272,0.09927635267376139,0.022487074969268675,False
+Combined vs. Capacity-alone,avg_waiting_time,12beds,combined,2.1690021166921127,1.3984569651709375,-0.7705451515211752,False
+Combined vs. Capacity-alone,avg_bed_utilization,12beds,combined,0.889921405455386,0.8779858221605795,-0.011935583294806484,False
+Combined vs. Capacity-alone,peak_queue_length,12beds,combined,5.0,5.0,0.0,False
+Combined vs. Capacity-alone,pct_time_queue_full,12beds,combined,0.04641701340730466,0.03522884882108183,-0.011188164586222835,False
+Combined vs. Capacity-alone,pct_time_under_pressure,12beds,combined,0.43495145631067955,0.39500693481276006,-0.039944521497919494,False
+Combined vs. Capacity-alone,avg_length_of_stay,12beds,combined,26.103848426310876,25.516819332556405,-0.5870290937544702,False
+Combined vs. Capacity-alone,rejection_rate_low,12beds,combined,0.0614168159700409,0.1699044778602853,0.10848766189024442,True
+Combined vs. Capacity-alone,rejection_rate_medium,12beds,combined,0.08342295882382864,0.06609671885174205,-0.017326239972086585,False
+Combined vs. Capacity-alone,rejection_rate_high,12beds,combined,0.12291366041366042,0.04689393939393939,-0.07601972101972103,False
+Combined vs. Queue-Policy-alone,admission_rate,priority,combined,0.7818309854011317,0.9007236473262387,0.11889266192510695,True
+Combined vs. Queue-Policy-alone,rejection_rate,priority,combined,0.21816901459886834,0.09927635267376139,-0.11889266192510695,True
+Combined vs. Queue-Policy-alone,avg_waiting_time,priority,combined,2.285695391173802,1.3984569651709375,-0.8872384260028643,False
+Combined vs. Queue-Policy-alone,avg_bed_utilization,priority,combined,0.939704114655571,0.8779858221605795,-0.0617182924949915,True
+Combined vs. Queue-Policy-alone,peak_queue_length,priority,combined,5.0,5.0,0.0,False
+Combined vs. Queue-Policy-alone,pct_time_queue_full,priority,combined,0.07420249653259361,0.03522884882108183,-0.03897364771151179,False
+Combined vs. Queue-Policy-alone,pct_time_under_pressure,priority,combined,0.6271844660194174,0.39500693481276006,-0.2321775312066573,True
+Combined vs. Queue-Policy-alone,avg_length_of_stay,priority,combined,26.75076128107462,25.516819332556405,-1.2339419485182148,True
+Combined vs. Queue-Policy-alone,rejection_rate_low,priority,combined,0.36800619950996016,0.1699044778602853,-0.19810172164967485,True
+Combined vs. Queue-Policy-alone,rejection_rate_medium,priority,combined,0.14693737228386666,0.06609671885174205,-0.08084065343212461,True
+Combined vs. Queue-Policy-alone,rejection_rate_high,priority,combined,0.09544566544566546,0.04689393939393939,-0.04855172605172607,False
